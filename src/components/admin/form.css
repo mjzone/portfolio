@@ -1,0 +1,37 @@
+.admin-wrapper {
+    height: 100%;
+    padding: 10px;
+    margin: 30px;
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: flex-start;
+}
+
+.form-header > p {
+    font-size: 30px;
+}
+
+.form-wrapper {
+    width: 100%;
+}
+
+.form-fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    width: 100%;
+}
+
+.form-item {
+    margin: 15px 0;
+}
+
+.image-preview {
+    width: 200px;
+}

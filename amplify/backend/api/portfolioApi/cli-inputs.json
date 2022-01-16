@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "paths": {
+    "/portfolio": {
+      "name": "/portfolio",
+      "lambdaFunction": "portfolioappc366ebea",
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "create",
+          "read",
+          "update"
+        ],
+        "guest": [
+          "read"
+        ]
+      }
+    }
+  }
+}
