@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Components
-import Intro from './components/profile/intro';
+import Intro from './components/public/profile';
 import Form from './components/admin/form';
 
 function App() {
